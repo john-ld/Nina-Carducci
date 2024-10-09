@@ -1,0 +1,12 @@
+{
+  "name": "ninacarducci-p8",
+  "version": "1.0.0",
+  "description": "Projet 8 OpenClassrooms - Optimisation du référencement d'un site de photographe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
