@@ -409,7 +409,9 @@ select:disabled {
 [type=reset],
 [type=submit],
 button {
-    -webkit-appearance: button
+    appearance: button;
+    /* Utilisé pour les navigateurs modernes */
+    -webkit-appearance: button;
 }
 
 [type=button]:not(:disabled),
@@ -470,7 +472,7 @@ legend+* {
 
 [type=search] {
     outline-offset: -2px;
-    -webkit-appearance: textfield
+    appearance: textfield;
 }
 
 ::-webkit-search-decoration {
@@ -2597,11 +2599,13 @@ textarea.form-control-lg {
     background-position: center;
     background-size: contain;
     border: 1px solid rgba(0, 0, 0, .25);
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact
+    /* Supprime l'apparence par défaut */
+    -webkit-appearance: none;
+    /* Supprime l'apparence par défaut pour WebKit */
+    -moz-appearance: none;
+    cursor: pointer;
+
 }
 
 .form-check-input[type=checkbox] {
