@@ -25,7 +25,7 @@ body {
 }
 
 .visually-hidden {
-	color: #575757;
+	color: #575757
 }
 
 .nav ul {
@@ -282,7 +282,6 @@ input[type="submit"] {
 	#about-me p {
 		width: 100%
 	}
-
 }
 
 @media all and (max-width:1000px) {
